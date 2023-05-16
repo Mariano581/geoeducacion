@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<!-- INICIO DE LINCK componentes necesarios en el sitio -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5745c1f81c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+<!-- FIN DE LINCK-->
+
+    <title>Capacitacion</title>
+</head>
+
+<body>
+<!-- INICIO BARRA DE NAVEGACION: que contiene...-----------------
+        A.Logo
+        B.Cuatro paginas y dos sub menu de tres y dos
+        C.Es responcid y su despliegue es con un menu amburguesa
+    -------------------------------------------------------------->
+    <header>
+        <div class="logo">
+            <img src="../assets/img/logocompleto.png" alt="Logo imagen negro consombre redonda alrrederor">
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li  class="sub-menu"><a href="./nosotros.html">Nosotros</a>
+                    <ul>
+                        <li>
+                            <a href="./queesgeo.html">¿Que es Geo?</a>
+                        </li>
+                        <li>
+                            <a href="./contacto.html">Contacto</a>
+                        </li>
+                        <li>
+                            <a href="./instituciones.html">Instituciones</a>
+                        </li>
+                    </ul>
+                </li>
+                    <li  class="sub-menu"><a href="./servicios.html">Servicios</a>
+                        <ul>
+                            <li>
+                                <a href="#">Interrogantes</a>
+                            </li>
+                            <li>
+                                <a href="./capacitacion.html">Capacitacion</a>
+                            </li>
+                        </ul>
+                    </li>
+                <li>
+                    <a target="_blank" href="https://www.geoeducacion.com.ar/">Ingresa</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fa fa-bars"></i>
+        </div>
+    </header>
+<!-- FIN BARRA DE NAVEGACION -->
+
+
+    <main>
+        <section>
+            <div>
+                <h1>Interrogantes</h1>
+            </div>
+        </section>
+    </main>
+<!-- INICIO de footer -->
+<footer class="piepagina">
+    <section class="grupo-a">
+        <article>
+            <div>
+                <img src="../assets/img/logogeo.svg" alt="Logo y palabre geo en color blanco">
+            </div>
+            <div class="red-social">
+                <a target="_blank"href="https://www.apple.com/la/app-store/" class="fa-brands fa-app-store-ios"></a>
+                <a target="_blank"href="https://play.google.com/store/games" class="fa-brands fa-google-play"></a>
+            </div>
+        </article>
+        <article>
+            <ul class="link">
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="./queesgeo.html">¿Que es Geo?</a>
+                </li>
+                <li>
+                    <a href="./servicios.html">Servicios</a>
+                </li>
+                <li>
+                    <a href="#">Preguntas Frecuentes</a>
+                </li>
+                <li>
+                    <a href="./capacitacion.html">Capacitación</a>
+                </li>
+                <li>
+                    <a href="./nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="./instituciones.html">Instituciones</a>
+                </li>
+                <li>
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </article>
+        <article>
+            <div>
+                <h2>Contacto</h2>
+                    <p>+54 223 5754343</p>
+                    <p>hola@geoeducacion.com.ar</p>
+            </div>
+            <div class="red-social">
+                <h2>Social Media</h2>
+                    <a target="_blank"href="https://www.facebook.com/educaciongeo" class="fa fa-facebook"></a>
+                    <a target="_blank"href="https://twitter.com/" class="fa fa-twitter"></a>
+                    <a target="_blank"href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+                    <a target="_blank"href="https://www.instagram.com/geo.educacion/" class="fa fa-instagram"></a>
+                    <a target="_blank"href="https://www.youtube.com/" class="fa fa-youtube"></a>
+            </div>
+        </article>
+    </section>
+    <section class="grupo-b">
+        <div>
+            <small>©copyright; 2023 <b>GEO</b> -todos los derechos reservados.- </small>
+        </div>
+    </section>
+</footer>
+<!-- FIN de footer -->
+
+<!-- INICIO DE JS ...---------------------------------------------
+        A.LINQUEO DE JS
+        B.FUNCIONES DE JS APLICADOS A LA NAV SESPONSIVA
+        C.Es responcid y su despliegue es con un menu amburguesa
+    -------------------------------------------------------------->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.menu-toggle').click(function(){
+                $('nav').toggleClass('active');
+            })
+            $('ul li').click(function(){
+                $(this).siblings().removeClass('active');
+                $(this).toggleClass('active');
+            })
+        })
+    </script>
+<!-- FIN DE JS -->
+
+</body>
+</html>
