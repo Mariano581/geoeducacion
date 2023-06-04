@@ -1,0 +1,53 @@
+/* import fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Open+Sans:ital@1&display=swap');
+
+/* Receteo */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* import general barra de navegacion */
+@import "nav";
+
+/* import general footer */
+@import "footer";
+
+/* import general del body */
+@import "body";
+
+/* import general del header */
+@import "header";
+
+/* import general del main */
+@import "main";
+
+/* import estilo de la pagina index o inicio */
+@import "index/index";
+
+/* import estilo de la pagina contacto */
+@import "contacto/contacto";
+
+/* import estilo de la pagina capacitacion */
+@import "capacitacion/capacitacion";
+
+/* import estilo de la pagina instituciones */
+@import "instituciones/instituciones.scss";
+
+/* import estilo de la pagina interrogantes */
+@import "interrogantes/interrogantes";
+
+/* import estilo de la pagina nosotros */
+@import "nosotros/nosotros";
+
+/* import de estido de la pagina que es geo */
+@import "queesgeo/queesgeo";
+
+/* import todos los estilos compilados del la pagina servicio */
+@import "servicios/servicios";
+
+/* import de la pagina de sevicio los estilos del carrusel */
+@import "servicios/carrusel";
+
+/* import dentro de la pag servicios estilo de grid */
+@import "servicios/grid";

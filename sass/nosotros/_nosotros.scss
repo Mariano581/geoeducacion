@@ -1,0 +1,37 @@
+/* INICIO Nosotros*/
+
+.rounded-image-container {
+    text-align:center;
+    margin-bottom: 0;
+}
+
+.image-name {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.rounded-image {
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .image-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .rounded-image {
+        width: 300px;
+        height: 200px;
+    }
+}
+/*FIN Nosotros*/

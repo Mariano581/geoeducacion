@@ -1,0 +1,15 @@
+/* inicio sistema grid  */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px; /* Espaciado entre las celdas */
+}
+.grid-item {
+    background-color: #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+  /* FIN sistema grid  */
