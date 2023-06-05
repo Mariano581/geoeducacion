@@ -1,4 +1,41 @@
-/* INICIO Capacitación*/
+/* Inicio capacitacion */
 
+.capacitacion-container {
+    display: flex;
+    justify-content: space-between;
+}
 
-/*FIN Capacitación*/
+.column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.card {
+    padding: 20px;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.capacitacion-video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.capacitacion-video {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.capacitacion-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Fin capacitacion */

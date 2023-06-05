@@ -1,4 +1,42 @@
 /* INICIO Index*/
 
+.custom-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 30 auto;
+    padding: 50px;
+}
+
+.custom-left-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.a_aqui {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.custom-right-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-image-container {
+    max-width: 100%;
+}
+
+.custom-card-img {
+    max-width: 100%;
+    height: auto;
+}
+
 
 /*FIN Index*/

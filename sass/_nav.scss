@@ -9,7 +9,9 @@ header .logo{
     font-weight: bold;
 }
 header nav{
+    position: relative;
     float: right;
+    z-index: 9999;
 }
 header nav ul{
     margin: 0;
