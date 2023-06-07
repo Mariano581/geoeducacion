@@ -1,7 +1,7 @@
 main{
-    padding: 150px;
-    /* flex-direction:row; */
-    margin-bottom: 30px;
+    padding: 15px;
+    margin: 30px;
+    margin-bottom: 5px;
 }
 
 /*INICIO main*/
@@ -31,37 +31,31 @@ p {
 }
 
 .icon{
-    height: 30px;
-    width: 30px;
-    margin-bottom: 40px
+    height: 10px;
+    width: 10px;
+    margin-bottom: 50px
 }
 .section {
-    padding: 20px;
+    margin: 20px;
+    padding: 10px;
 }
 .card{
-    padding: 1px;
     width: 100%;
-    margin: 30px;
+    padding: 5px;
+    margin: 10px;
     border-radius: 6px;
     overflow: hidden;
     background: #ffffff;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     cursor: default;
     transition: all 400ms ease;
+    position:relative;
+    z-index: 1000;
+    border-radius: 24px;
 }
 .card:hover{
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.45);
     transform: translateY(-3% );
 }
 
-.card {
-    position:relative;
-    z-index: 1000;
-    background-color: #ffffff;
-    border: 1px solid #cccccc;
-    border-radius: 24px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    padding: 10px;
-    margin-bottom: 10px;
-}
 /*FIN main*/
