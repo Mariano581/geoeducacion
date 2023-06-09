@@ -1,11 +1,11 @@
-/* carrusel 3D  */
-
+/* carrusel 3D */
 #carrusel {
     margin: 0 auto;
     padding-top: 20px;
     height: 300px;
     width: 100%;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .contenido {
@@ -32,7 +32,6 @@
 .content-carrousel figure {
     width: 100%;
     height: 120px;
-    border: 1px solid #3b444b;
     overflow: hidden;
     position: absolute;
 }
@@ -91,10 +90,25 @@
 
 @keyframes rotar {
     from {
-        transform: rotateY(0deg);
-    } to {
-        transform: rotateY(360deg);
+    transform: rotateY(0deg);
+    }
+    to {
+    transform: rotateY(360deg);
     }
 }
 
-    /* FIN carrusel 3D  */
+  /* Estilos responsivos para dispositivos móviles */
+@media (max-width: 767px) {
+    #carrusel{
+        display: none;
+    }
+
+    .contenido {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .content-carrousel figure {
+        height: 80px;
+    }
+}

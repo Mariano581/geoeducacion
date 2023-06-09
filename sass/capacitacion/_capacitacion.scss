@@ -3,25 +3,24 @@
 /* Estilos específicos para cada elemento */
 
 .capacitacion-container {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 40 auto;
+
 }
 
 .column {
-    margin-top: 30px;
-    margin: 15px auto;
+  margin-top: 30px;
+  margin: 0px;
   padding: 20px;
   width: 100%;
 }
 
-
 .capacitacion-video-container {
   position: relative;
-  width: 100%;
-  padding-top: 56.25%;
+  width: 50%;
+  padding-top: 28.25%;
+  margin: auto;
 }
 
   .capacitacion-video-container iframe {
@@ -35,12 +34,11 @@
   }
 
 
-.capacitacion-image {
-  width: 100%;
-  height: auto;
-  margin-top: 10px;
-  border-radius: 5px;
-}
+  .capacitacion-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px; /* Ajusta el ancho máximo según tus necesidades */
+  }
 
 /* Estilos para dispositivos de pantalla pequeña y medianos */
 
