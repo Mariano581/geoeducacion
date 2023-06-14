@@ -45,17 +45,6 @@
     text-align: center;
     padding-bottom: 10px;
 }
-/* ----------------------------------------------------------------------------------------------- */
-/* Aqui realice correcciones para una mejor visualizacion en formato movil que no las quise borrar */
-/* ----------------------------------------------------------------------------------------------- */
-/* @media only screen and (max-width: 320px) {
-    .instituciones {
-        font-size: 16px;
-        -moz-column-count: 1;
-        -webkit-column-count: 1;
-        column-count: 1;
-    }
-} */
 
 @media only screen and /* (min-width: 321px) and */ (max-width: 768px) {
     .instituciones {
